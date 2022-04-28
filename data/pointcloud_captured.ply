@@ -1,0 +1,16 @@
+ply
+format ascii 1.0
+comment author: PIX4Dcatch
+element vertex 5
+property float x
+property float y
+property float z
+property uchar red
+property uchar green
+property uchar blue
+end_header
+-0.03623648 -0.06170319 -0.1107553 33 31 31
+0.003934313 -0.06966712 -0.1148621 31 35 35
+-0.0287879 -0.06253272 -0.1262915 53 56 54
+-0.0468233 -0.05342601 -0.1211567 38 40 36
+-0.05688986 -0.05589233 -0.1079456 49 45 40

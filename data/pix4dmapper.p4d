@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pix4dmapper>
+    <software>
+        <projectVersion>4.5.2</projectVersion>
+        <p4dVersion>21</p4dVersion>
+        <cameraModelVersion>19</cameraModelVersion>
+    </software>
+    <options>
+        <initial>
+            <runStep>true</runStep>
+            <keypointsImageScale>Full</keypointsImageScale>
+            <imageScale>1</imageScale>
+            <generateOrthoInReport>true</generateOrthoInReport>
+            <matchStrategy>AutoAerial</matchStrategy>
+            <geometricallyVerifiedMatching>false</geometricallyVerifiedMatching>
+            <keypointSelectionMethod>Automatic</keypointSelectionMethod>
+            <numberOfKeypoints>10000</numberOfKeypoints>
+            <calibrationMethod>Standard</calibrationMethod>
+            <optimizerType>Ceres</optimizerType>
+            <internalParamOptimization>All</internalParamOptimization>
+            <externalParamOptimization>All</externalParamOptimization>
+            <leverarmParamOptimization>None</leverarmParamOptimization>
+            <rematchStrategy>Auto</rematchStrategy>
+            <rematch>true</rematch>
+            <rematchOverlap>0.3</rematchOverlap>
+            <automaticSkyMasking>true</automaticSkyMasking>
+            <exportCameraParamsAATBBA>true</exportCameraParamsAATBBA>
+            <exportUndistortedImages>false</exportUndistortedImages>
+        </initial>
+        <dense>
+            <runStep>true</runStep>
+            <pclImageDownscaleFactor>1</pclImageDownscaleFactor>
+            <pclImageMultiscale>true</pclImageMultiscale>
+            <pclDensity>Optimal</pclDensity>
+            <pclMinNoMatches>3</pclMinNoMatches>
+            <pclExportLAS>true</pclExportLAS>
+            <pclExportLAZ>false</pclExportLAZ>
+            <pclExportPLY>false</pclExportPLY>
+            <pclExportXYZ>false</pclExportXYZ>
+            <pclExportXYZDelim>Space</pclExportXYZDelim>
+            <pclExportMergeTiles>true</pclExportMergeTiles>
+            <pclWindowSize>7</pclWindowSize>
+            <pclImageGroups>
+                <group name="" />
+            </pclImageGroups>
+            <pclUseProcessingArea>true</pclUseProcessingArea>
+            <pclUseAnnotations>true</pclUseAnnotations>
+            <pclLimitDepthAutomatically>false</pclLimitDepthAutomatically>
+            <pclClassify>false</pclClassify>
+        </dense>
+        <mesh>
+            <meshGenerate3dTexturedMesh>true</meshGenerate3dTexturedMesh>
+            <meshResolution>Medium</meshResolution>
+            <meshMaxOctreeDepth>12</meshMaxOctreeDepth>
+            <meshTextureSize>8192</meshTextureSize>
+            <meshDecimationCriteria>Quantitative</meshDecimationCriteria>
+            <meshMaxTriangles>1000000</meshMaxTriangles>
+            <meshDecimationStrategy>Sensitive</meshDecimationStrategy>
+            <meshTextureColorBalancing>false</meshTextureColorBalancing>
+            <meshExportPLY>false</meshExportPLY>
+            <meshExportFBX>true</meshExportFBX>
+            <meshExportDXF>false</meshExportDXF>
+            <meshExportOBJ>true</meshExportOBJ>
+            <meshExportTiledOBJ>false</meshExportTiledOBJ>
+            <meshExportPDF3D>false</meshExportPDF3D>
+            <meshExportPDF3DLogoPath></meshExportPDF3DLogoPath>
+            <meshGeometryImageGroups>
+                <group name="" />
+            </meshGeometryImageGroups>
+            <meshTextureImageGroups>
+                <group name="" />
+            </meshTextureImageGroups>
+            <meshSampleDensityDivider>1</meshSampleDensityDivider>
+            <lodExportOSGB>false</lodExportOSGB>
+            <lodExportSLPK>false</lodExportSLPK>
+            <lodLevelCount>4</lodLevelCount>
+            <lodTextureQuality>0</lodTextureQuality>
+        </mesh>
+        <ortho>
+            <runStep>true</runStep>
+            <orthoResolution>0.1</orthoResolution>
+            <dsmFilterUseNoiseFilter>true</dsmFilterUseNoiseFilter>
+            <dsmFilterUseSmoothing>true</dsmFilterUseSmoothing>
+            <dsmFilterSmoothingType>Sharp</dsmFilterSmoothingType>
+            <dsmTIFF>true</dsmTIFF>
+            <dsmMethod>InverseDistanceWeighting</dsmMethod>
+            <dsmTIFFMergeTiles>true</dsmTIFFMergeTiles>
+            <mosaicTIFF>true</mosaicTIFF>
+            <mosaicTIFFMergeTiles>true</mosaicTIFFMergeTiles>
+            <mosaicTIFFNoTransparency>false</mosaicTIFFNoTransparency>
+            <mosaicKML>false</mosaicKML>
+            <gridDsmXYZ>false</gridDsmXYZ>
+            <gridDsmXYZDelim>Space</gridDsmXYZDelim>
+            <gridDsmLAS>false</gridDsmLAS>
+            <gridDsmLAZ>false</gridDsmLAZ>
+            <gridDsmGridSpacing>100</gridDsmGridSpacing>
+            <dtmTIFF>false</dtmTIFF>
+            <dtmTIFFMergeTiles>true</dtmTIFFMergeTiles>
+            <dtmResolution>-5</dtmResolution>
+            <contourSHP>false</contourSHP>
+            <contourPDF>false</contourPDF>
+            <contourDXF>false</contourDXF>
+            <contourBase>0</contourBase>
+            <contourElevationInterval>10</contourElevationInterval>
+            <contourResolution>100</contourResolution>
+            <contourMinLineSize>20</contourMinLineSize>
+        </ortho>
+        <index>
+            <radiometry>
+                <camera id="0">
+                    <radiometricCorrection>none</radiometricCorrection>
+                </camera>
+            </radiometry>
+            <indexResolution>-1</indexResolution>
+            <indexDownsamplingMethod>Gauss</indexDownsamplingMethod>
+            <indexReflectance>false</indexReflectance>
+            <indexReflectanceMergeTiles>false</indexReflectanceMergeTiles>
+            <indexExportPointSHP>false</indexExportPointSHP>
+            <indexExportPointSHPGridSize>200</indexExportPointSHPGridSize>
+            <indexExportPolygonSHP>false</indexExportPolygonSHP>
+            <indexExportPolygonSHPGridSize>400</indexExportPolygonSHPGridSize>
+        </index>
+    </options>
+    <inputs>
+        <coordinateSystems>
+            <southingWesting>true</southingWesting>
+            <image>
+                <WKT>GEOGCS[&quot;WGS 84&quot;,DATUM[&quot;WGS_1984&quot;,SPHEROID[&quot;WGS 84&quot;,6378137,298.257223563,AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]],PRIMEM[&quot;Greenwich&quot;,0,AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]],UNIT[&quot;degree&quot;,0.01745329251994328,AUTHORITY[&quot;EPSG&quot;,&quot;9122&quot;]],AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</WKT>
+                <verticalDef model="constShift" geoidHeight="0.0" />
+            </image>
+        </coordinateSystems>
+        <images>
+            <image path="Image_000001.jpg">
+                <xyz x="9.975e-08" y="4.2500000000000003e-08" z="-0.00082" />
+                <accuracyXY>0.1</accuracyXY>
+                <accuracyZ>0.1</accuracyZ>
+                <ori yaw="-159.60873" pitch="46.70846" roll="8.394589" perpCamera="true" />
+            </image>
+            <image path="Image_000002.jpg">
+                <xyz x="-2.4194444444444445e-08" y="4.183333333333333e-08" z="-0.01092" />
+                <accuracyXY>0.1</accuracyXY>
+                <accuracyZ>0.1</accuracyZ>
+                <ori yaw="-160.4704" pitch="42.373844" roll="-1.9741517" perpCamera="true" />
+            </image>
+            <image path="Image_000003.jpg">
+                <xyz x="4.055555555555555e-08" y="3.027777777777778e-08" z="-0.00854" />
+                <accuracyXY>0.1</accuracyXY>
+                <accuracyZ>0.1</accuracyZ>
+                <ori yaw="-163.17789" pitch="42.696785" roll="4.528858" perpCamera="true" />
+            </image>
+            <image path="Image_000004.jpg">
+                <xyz x="-2.986111111111111e-08" y="2.4583333333333332e-08" z="-0.01552" />
+                <accuracyXY>0.1</accuracyXY>
+                <accuracyZ>0.1</accuracyZ>
+                <ori yaw="-163.02545" pitch="36.208527" roll="2.252729" perpCamera="true" />
+            </image>
+            <image path="Image_000005.jpg">
+                <xyz x="-4.7166666666666666e-08" y="5.725e-08" z="-0.02329" />
+                <accuracyXY>0.1</accuracyXY>
+                <accuracyZ>0.1</accuracyZ>
+                <ori yaw="-163.55109" pitch="31.66123" roll="-0.082472034" perpCamera="true" />
+            </image>
+            <image path="Image_000006.jpg">
+                <xyz x="-1.0630555555555556e-07" y="9.061111111111112e-08" z="-0.03367" />
+                <accuracyXY>0.1</accuracyXY>
+                <accuracyZ>0.1</accuracyZ>
+                <ori yaw="-162.43858" pitch="25.782614" roll="-7.1704698" perpCamera="true" />
+            </image>
+            <image path="Image_000007.jpg">
+                <xyz x="-1.1727777777777778e-07" y="1.0569444444444444e-07" z="-0.03424" />
+                <accuracyXY>0.1</accuracyXY>
+                <accuracyZ>0.1</accuracyZ>
+                <ori yaw="-162.45273" pitch="25.20717" roll="-5.3972087" perpCamera="true" />
+            </image>
+            <image path="Image_000008.jpg">
+                <xyz x="-8.774999999999999e-08" y="1.2508333333333333e-07" z="-0.02692" />
+                <accuracyXY>0.1</accuracyXY>
+                <accuracyZ>0.1</accuracyZ>
+                <ori yaw="-163.43594" pitch="29.124855" roll="-1.7857736" perpCamera="true" />
+            </image>
+        </images>
+    </inputs>
+</pix4dmapper>

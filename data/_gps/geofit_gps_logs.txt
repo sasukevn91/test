@@ -1,0 +1,8 @@
+GeoFit
+Images,8
+Locations,1
+CameraOffset,0,0,0
+Origin,0,0,0,0,0,0
+ForceTryFit,true
+
+Rigid fit could not be computed due to bad accuracy
